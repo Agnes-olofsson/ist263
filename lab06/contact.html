@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1>Contact</h1>
+        <h2>Agnes Olofsson <br>
+            505 Walnut Ave</h2>
+        <h3>My LinkedIn Page <a href="http://www.linkedin.com/in/agnes-olofsson" target="_blank"><img src="../images/logo-sized.png" alt=" LinkedIn Logo"><br></a></h3>
+        <h3><a href="mailto:abolofss@syr.edu">Agnes Olofsson Email</a></h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.7564696003205!2d-76.13400308452181!3d43.046555179146786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a761bd0b81%3A0x2b9129d843ac90a9!2s505%20Walnut%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1ssv!2sus!4v1644506920162!5m2!1ssv!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <form action="https://formspree.io/f/mdobgzry" method="POST">
+
+         <label for="fname">First name:</label><br>
+         <input type="text" id="fname" name="fname"><br>
+         <label for="lname">Last name:</label><br>
+         <input type="text" id="lname" name="lname"><br>
+
+         <input type="radio" id="html" name="fav_language" value="Happy">
+         <label for="html">Happy</label><br>
+         <input type="radio" id="css" name="fav_language" value="Sad">
+         <label for="css">Sad</label><br>
+         <input type="radio" id="javascript" name="fav_language" value="Other">
+         <label for="javascript">Other</label><br>
+         <textarea name="message" rows="10" cols="30">
+            If other please explain.
+            </textarea><br>
+
+         <input type="submit" value="send">
+
+    </form>
+</body>
+</html>
