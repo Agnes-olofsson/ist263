@@ -9,13 +9,4 @@ body {color: #333333;
     nav a:hover {background-color: #9DD9F3;}
     nav {padding: 15px;}
     nav {margin-bottom: 30px}
-    h1, h2{
-        font-size:64px;
-        font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-weight:100;
-      }
-      body{
-        font-size:12px;
-        font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-weight:0;
-      }
+    a:visited {color: #dda3ff;} /*this is extra*/
