@@ -17,3 +17,6 @@ body {color: #333333;
     .row1 {background-color: #ffffff; border-radius: 1em;padding: 15px;}
     .col3 {flex: 1;}
     .col4 {flex: 2;}
+    .bio {float: left; margin-right: 10px;}
+    .clear {clear: both; margin: 30px; padding: 15px;}
+    .ads {margin: 30px; padding: 15px; vertical-align: -20px; }
