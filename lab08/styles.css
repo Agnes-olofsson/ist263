@@ -1,0 +1,19 @@
+body {color: #333333;
+    background-color: #f5f5f5;}
+    a {color: #facff8;}
+   /* a:visited {color: #d1a3ff;}
+    a:hover {color: #ff8cf9;} */
+    h1, h2 {color: #9DD9F3;}
+    nav {background-color: #333333;border-radius: 1em;}
+    nav a {color: #f5f5f5;}
+    nav a:hover {background-color: #9DD9F3;}
+    nav {padding: 15px;}
+    nav {margin-bottom: 30px}
+    a:visited {color: #dda3ff;} /*this is extra*/
+    .copy {float: right;}
+    .row1 {display: flex;}
+    .row1 col {padding: 20px;}
+    .col1, .col2, .col3, .col4 {margin: 20px;}
+    .row1 {background-color: #ffffff; border-radius: 1em;padding: 15px;}
+    .col3 {flex: 1;}
+    .col4 {flex: 2;}
