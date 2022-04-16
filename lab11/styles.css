@@ -1,0 +1,80 @@
+body {color: #333333;
+    background-color: #f5f5f5;}
+    a {color: #facff8;}
+   /* a:visited {color: #d1a3ff;}
+    a:hover {color: #ff8cf9;} */
+    h1, h2 {color: #9DD9F3;}
+    nav {background-color: #333333;border-radius: 1em;}
+    nav a {color: #f5f5f5;}
+    nav a:hover {background-color: #9DD9F3;}
+    nav {padding: 15px;}
+    nav {margin-bottom: 30px}
+    a:visited {color: #dda3ff;} /*this is extra*/
+    .copy {float: right;}
+    .row1 {display: flex;
+        flex-wrap: wrap
+    }
+    .row1 col {padding: 20px;}
+    .col1, .col2, .col3, .col4 {margin: 20px;}
+    .row1 {background-color: #ffffff; border-radius: 1em;padding: 15px;}
+    .col3 {flex: 1;}
+    .col4 {flex: 2;}
+    .bio {float: left; margin-right: 10px;}
+    .clear {clear: both; margin: 30px; padding: 15px;}
+    .ads {margin: 30px; padding: 15px; vertical-align: -20px; }
+    .skills {background-color: #ffffff; border-radius: 1em;padding: 15px; margin-left: 30px;}
+    h1 {text-align: center;}
+    .skillbox {display: flex;}
+    .otherskills {background-color: #333333; color: #f5f5f5; border-radius: 1em;}
+    .flex2 {display: flex;}
+
+    .skillbox {
+        flex: 4;
+        padding: 30px;
+        justify-content: space-between;
+        margin-top: 70px;
+        margin-inline-end: 30px;
+    }
+    .otherskills {
+        flex: 1;
+        padding: 30px;
+        margin-inline-end: 20px;
+        margin-top: 10px;
+    }
+
+    .bio {max-width: 100%
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    @media only screen and (max-width:600px){  /*this styles only when the screen is 600px or less*/
+        nav a {max-width: 100%;
+            display: block;
+            justify-content: space-around;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    h1, h2 {font-size: larger;}
+    p, div {font-size: smaller;}
+
+    p .hi P { text-align: center }
+
+    #skip {
+        position: absolute;
+        left: -999px;
+        background-color: #333333;
+        padding: 10px;
+    }
+
+    #skip:focus {
+        left: 10px;
+
+    }
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+    <style>
+
+        /*
+        1. html link that says skip to content
+        2. need an anchor
+        3. style skip to content 
+        4. hide it and show it (positioning) 
+
+        when you have a class you put . with id you put #
+        */
+
+
+        /* means that it is looking for a tag with id called skip*/
+
+        #skip {
+            position: absolute;
+            left: -999px;
+            background-color: orange;
+            padding: 10px;
+        }
+
+        #skip:focus {
+            left: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <!--tab index is an attribute of an html tag, it changes the order the tab key selects links, important when it is a complex website-->
+        <a a href="#content" id="skip">Skip to Content</a>
+        <a href="http://www.twitter.com" tabindex="4">Twitter</a>
+        <a href="index.html" tabindex="1">Home</a>
+        <a href="skills.html" tabindex="2">Skills</a>
+        <a href="contact.html" tabindex="3">Contact</a>
+    </nav>
+
+    <!-- heading tags are about hierachy, not in order-->
+    <h1>Accessibility</h1> <!-- only one per page, it will not validate , main heading-->
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti ducimus, rem est voluptates magnam quas at, placeat quidem voluptatem delectus laboriosam, blanditiis deleniti impedit laudantium sint dolores a aperiam!</p>
+   
+    <h2>tab order</h2> <!--subheading -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti ducimus, rem est voluptates magnam quas at, placeat quidem voluptatem delectus laboriosam, blanditiis deleniti impedit laudantium sint dolores a aperiam!</p>
+    <h2>semantic tags</h2>
+        <h3>aside tag</h3>
+        <h3 id="content">article tag</h3>
+</body>
+</html>
