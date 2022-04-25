@@ -164,6 +164,7 @@ p {font-family: 'Darker Grotesque', sans-serif;
 
 a {font-family: 'Raleway', sans-serif;
     text-decoration: none;
+    color: white
 }
 /*
 footer {
@@ -193,8 +194,8 @@ nav {color: white;
 
 }
 
-a:visited {color: white}
-a {color: white}
+/*a:visited {color: white}*/
+
 
 
 @media only screen and (max-width:600px){
