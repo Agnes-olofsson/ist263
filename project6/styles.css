@@ -1,4 +1,13 @@
-body {padding: 70px;
+body {padding: 50px;
+}
+
+h1   {text-align: center;
+    margin-top: 50px;
+}
+
+.icon  {  display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {border-radius: 10px;
@@ -16,6 +25,7 @@ img {border-radius: 10px;
 }
 
 .box2 {flex:2;
+    margin-top: auto;
 }
 
 .container2 {display: flex;
@@ -52,16 +62,20 @@ img {border-radius: 10px;
 .box8 {flex:2;
 }
 
-
 .container5 {display: flex;
     margin-top: 50px;
 
 }
 
 .box9 {flex:1;
+    margin-top: auto;
 }
 
-.box10 {flex:2;
+.box10 {flex:1;
+}
+
+.boxextra {flex:1;
+    margin-top: auto;
 }
 
 .container6 {display: flex;
@@ -83,7 +97,10 @@ img {border-radius: 10px;
 .box13 {flex:1;
 }
 
-.box14 {flex:2;
+.box14 {flex:1;
+}
+
+.boxextra2 {flex:1;
 }
 
 .container8 {display: flex;
@@ -93,6 +110,7 @@ img {border-radius: 10px;
 
 .box15 {flex:1;
     display: block;
+    margin-top: auto;
 }
 
 .box16 {flex:1;
@@ -118,5 +136,69 @@ img {border-radius: 10px;
 .box20 {flex:1;
 }
 
-div {border: 3px solid black;
+.container10 {display: flex;
+    margin-top: 50px;
+
+}
+
+.box21 {flex:1;
+}
+
+.box22 {flex:1;
+}
+
+.box23 {flex:1;
+}
+
+div p {padding: 20px;
+}
+div h2 {padding: 20px;
+}
+
+h1, h2 {font-family: 'Syncopate', sans-serif;
+}
+
+p {font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5em;
+}
+
+a {font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+/*
+footer {
+    margin-top: 50px;
+    color: white;
+    background-color: #11237d;
+    padding: 15px;
+    border-radius: 1em;
+    justify-content: center;
+ 
+}
+*/
+
+footer {color: white;
+    background-color: #11237d;
+    padding: 15px;
+    border-radius: 1.5em;
+    display: inline;
+
+}
+
+nav {color: white;
+    background-color: #11237d;
+    padding: 15px;
+    border-radius: 1.5em;
+    display: inline;
+
+}
+
+a:visited {color: white}
+
+
+@media only screen and (max-width:600px){
+    .rosa, .green, .red, .pink {display: none} 
+    .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .container9, .container10 {
+        flex-wrap: wrap;
+    }
 }
