@@ -194,6 +194,7 @@ nav {color: white;
 }
 
 a:visited {color: white}
+a {color: white}
 
 
 @media only screen and (max-width:600px){
