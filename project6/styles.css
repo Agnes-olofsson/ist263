@@ -1,4 +1,11 @@
-body {padding: 50px;
+body {padding: 40px;
+}
+
+#home{
+    background-image: url("../images/projectimages/gullig.jpg");
+    border: 60px solid white;
+    border-radius: 1.5em;
+    margin-left: 10px;
 }
 
 h1   {text-align: center;
@@ -30,7 +37,6 @@ img {border-radius: 10px;
 
 .container2 {display: flex;
     margin-top: 50px;
-
 }
 
 .box3 {flex:1;
@@ -41,7 +47,6 @@ img {border-radius: 10px;
 
 .container3 {display: flex;
     margin-top: 50px;
-
 }
 
 .box5 {flex:1;
@@ -64,7 +69,6 @@ img {border-radius: 10px;
 
 .container5 {display: flex;
     margin-top: 50px;
-
 }
 
 .box9 {flex:1;
@@ -80,7 +84,6 @@ img {border-radius: 10px;
 
 .container6 {display: flex;
     margin-top: 50px;
-
 }
 
 .box11 {flex:2;
@@ -91,7 +94,6 @@ img {border-radius: 10px;
 
 .container7 {display: flex;
     margin-top: 50px;
-
 }
 
 .box13 {flex:1;
@@ -105,7 +107,6 @@ img {border-radius: 10px;
 
 .container8 {display: flex;
     margin-top: 50px;
-
 }
 
 .box15 {flex:1;
@@ -122,7 +123,6 @@ img {border-radius: 10px;
 
 .container9 {display: flex;
     margin-top: 50px;
-
 }
 
 .box18 {flex:1;
@@ -138,7 +138,6 @@ img {border-radius: 10px;
 
 .container10 {display: flex;
     margin-top: 50px;
-
 }
 
 .box21 {flex:1;
@@ -166,24 +165,12 @@ a {font-family: 'Raleway', sans-serif;
     text-decoration: none;
     color: white
 }
-/*
-footer {
-    margin-top: 50px;
-    color: white;
-    background-color: #11237d;
-    padding: 15px;
-    border-radius: 1em;
-    justify-content: center;
- 
-}
-*/
 
 footer {color: white;
     background-color: #11237d;
     padding: 15px;
     border-radius: 1.5em;
     display: inline;
-
 }
 
 nav {color: white;
@@ -191,7 +178,6 @@ nav {color: white;
     padding: 15px;
     border-radius: 1.5em;
     display: inline;
-
 }
 
 /*a:visited {color: white}*/
@@ -203,4 +189,45 @@ nav {color: white;
     .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .container9, .container10 {
         flex-wrap: wrap;
     }
+}
+
+.house {display: flex;
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+.room1 {flex:1;
+}
+
+.room2 {flex:2;
+    background-color: white;
+    border-radius: 2.5em;
+}
+
+.room3 {flex:1;
+}
+
+
+#high  {text-align: center;
+}
+
+
+.house img {border: 20px solid white;
+    border-radius: 2.5em;
+}
+
+
+.house2 {display: flex;
+    padding: 30px;
+}
+
+.room4 {flex:1;
+    margin-top: auto;
+    text-align: justify;
+    text-align-last: right;
+    margin-left: 30px;
+}
+
+
+#tools {margin: 100px;
 }
