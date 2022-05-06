@@ -18,13 +18,51 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
+<style>
+    #hamburger {
+        width:60px;
+        display:none;
+}
+
+#navlinks a {
+     padding: 10px;
+    margin: 5px;
+                   
+}
+
+@media only screen and (max-width: 600px) {
+#hamburger {display:block;}
+#navlinks a {display:block; color: black;}
+#navlinks {display:none;}
+nav {background-color: white; text-align: left;}
+
+}
+</style>
+<script>
+function toggleNav () {
+
+    if (document.getElementById("navlinks").style.getPropertyValue("display") =='block'){
+        document.getElementById("navlinks").style.display = "none";   
+    }
+    else{
+
+    document.getElementById("navlinks").style.display = "block";
+}
+}
+</script>
+
 </head>
 <body id="places">
     <nav>
+
+        <img src="../images/projectimages/hamburger.png" alt="hamburger icon" id="hamburger" onclick="toggleNav();">
+
+        <div id="navlinks">
         <a name="top"></a>
-        <a href="home.html">Home  | </a>
-        <a href="places.html">Places to Ski  | </a>
+        <a href="home.html">Home</a>
+        <a href="places.html">Places to Ski</a>
         <a href="tools.html">Useful Equipment</a>
+        </div>
     </nav> 
 
 <h1>My Favorite Places to Ski</h1>

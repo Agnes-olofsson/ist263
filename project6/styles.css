@@ -1,18 +1,17 @@
-body {padding: 40px;
+body {padding: 20px;
 }
 
 #home{
     background-image: url("../images/projectimages/gullig.jpg");
     border: 60px solid white;
-    border-radius: 1.5em;
-    margin-left: 10px;
+    margin: 0px;
 }
 
 /*#places {
     background-image: url("../images/projectimages/white.jpg");} */
 
 h1   {text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .icon  {  display: block;
@@ -59,7 +58,6 @@ img {border-radius: 10px;
 
 .container4 {display: flex;
     margin-top: 50px;
-
 }
 
 .box7 {flex:1;
@@ -172,17 +170,20 @@ footer {color: white;
     background-color: #11237d;
     padding: 15px;
     border-radius: 1.5em;
-    margin: 0 auto;
-    width: 50%;
+    border: solid white 5px;
+    width: 35%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {color: white;
     background-color: #11237d;
     padding: 15px;
     border-radius: 1.5em;
-    display: inline;
     border: solid white 5px;
-
+    width: 40%;
+    text-align: center;
 }
 
 /*a:visited {color: white}*/
@@ -190,16 +191,48 @@ nav {color: white;
 
 
 @media only screen and (max-width:600px){
-    .rosa, .green, .red, .pink {display: none} 
+    .rosa, .green, .red, .pink, .icon {display: none} 
     .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .container9, .container10 {
         display: block;
-        border: 1px solid black;
     }
     img {
         width: 100%;
     } 
-    div {
-        border: 1px solid black;
+
+    .house2, .house{
+        flex-direction: column;
+    }
+
+
+    .end {
+        display: none;
+    }
+
+    .room2 {
+        justify-content: center;
+    }
+
+    #toolsh1 {
+        display: none;
+    }
+
+    #tools {background-color: white;
+    }
+
+    #home {background-image: none;
+    }
+
+    #jag, #pappa { 
+        border: 20px solid #86d5f7;
+        border-radius: 2.5em;
+    }
+
+    .room2 { 
+        margin-left: 40px;
+    }
+
+    .useful {
+        display: block;
     }
 }
 
@@ -221,25 +254,22 @@ nav {color: white;
 .room3 {flex:1;
 }
 
-
 #high  {text-align: center;
 }
-
 
 .house img, .house2 img {border: 20px solid white;
     border-radius: 2.5em;
 }
 
-
 .house2 {display: flex;
-    padding: 30px;
 }
 
 .room4 {flex:1;
+ margin-top: auto;
+}
+
+.room5 {flex:1;
     margin-top: auto;
-    text-align: justify;
-    text-align-last: right;
-    margin-left: 30px;
 }
 
 #tools {margin: 100px;
@@ -251,6 +281,17 @@ nav {color: white;
 }
 
 h1 {border: solid black 10px;
-    border-radius: 2em;
+    border-radius: 1.5em;
     padding: 20px; 
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.end {
+    margin-left: 300px;
+}
+
+.useful {
+    display: none;
 }
