@@ -2,13 +2,19 @@ body {padding: 20px;
 }
 
 #home{
-    background-image: url("../images/projectimages/gullig.jpg");
+    background-image: url("../images/projectimages/blackwhite.jpg");
     border: 60px solid white;
     margin: 0px;
 }
 
-/*#places {
-    background-image: url("../images/projectimages/white.jpg");} */
+#high  {text-align: center;
+    margin-top: 30px;
+}
+
+#places {
+    border: 5px solid #f77cd2;
+    border-radius: 1.5em;
+}
 
 h1   {text-align: center;
     margin-top: 40px;
@@ -177,6 +183,10 @@ footer {color: white;
     margin-right: auto;
 }
 
+#places nav {
+    border: solid #f77cd2 5px;
+}
+
 nav {color: white;
     background-color: #11237d;
     padding: 15px;
@@ -189,58 +199,11 @@ nav {color: white;
 /*a:visited {color: white}*/
 
 
-
-@media only screen and (max-width:600px){
-    .rosa, .green, .red, .pink, .icon {display: none} 
-    .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .container9, .container10 {
-        display: block;
-    }
-    img {
-        width: 100%;
-    } 
-
-    .house2, .house{
-        flex-direction: column;
-    }
-
-
-    .end {
-        display: none;
-    }
-
-    .room2 {
-        justify-content: center;
-    }
-
-    #toolsh1 {
-        display: none;
-    }
-
-    #tools {background-color: white;
-    }
-
-    #home {background-image: none;
-    }
-
-    #jag, #pappa { 
-        border: 20px solid #86d5f7;
-        border-radius: 2.5em;
-    }
-
-    .room2 { 
-        margin-left: 40px;
-    }
-
-    .useful {
-        display: block;
-    }
-}
-
 /* padding for p*/
 
 .house {display: flex;
-    margin-top: 140px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .room1 {flex:1;
@@ -249,15 +212,17 @@ nav {color: white;
 .room2 {flex:2;
     background-color: white;
     border-radius: 2.5em;
+    border: solid black 10px;
 }
 
 .room3 {flex:1;
 }
 
-#high  {text-align: center;
+.house img {border: 20px solid #f77cd2;
+    border-radius: 2.5em;
 }
 
-.house img, .house2 img {border: 20px solid white;
+.house2 img {border: 20px solid white;
     border-radius: 2.5em;
 }
 
@@ -286,6 +251,7 @@ h1 {border: solid black 10px;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
 }
 
 .end {
@@ -294,4 +260,104 @@ h1 {border: solid black 10px;
 
 .useful {
     display: none;
+}
+
+.container1 img {
+    border: solid #69d17a 5px;
+}
+
+.container2 img {
+    border: solid #b988e3 5px;
+}
+
+.container3 img {
+    border: solid #edb85c 5px;
+}
+
+.container4 img {
+    border: solid #eb499a 5px;
+}
+
+.container5 img {
+    border: solid #6365e6 5px;
+}
+
+.container6 img {
+    border: solid #f5ef84 5px;
+}
+
+.container7 img {
+    border: solid #9bf2de 5px;
+}
+
+.container8 img {
+    border: solid #f55f6e 5px;
+}
+
+.container9 img {
+    border: solid #85de88 5px;
+}
+
+@media only screen and (max-width:600px){
+    .rosa, .green, .red, .pink, .icon {display: none} 
+    .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .container9, .container10 {
+        display: block;
+    }
+    img {
+        width: 100%;
+    } 
+
+    .house2, .house{
+        /*flex-direction: column; */
+        display: block;
+    }
+
+
+    .end {
+        display: none;
+    }
+
+    .room2 {
+        justify-content: center;
+    }
+
+    #toolsh1 {
+        display: none;
+    }
+
+    #tools {background-image: none;
+    }
+
+    #home {background-image: none;
+    }
+
+    #jag, #pappa { 
+        border: 20px solid #86d5f7;
+        border-radius: 2.5em;
+    }
+
+    .room2 { 
+        margin-left: 40px;
+    }
+
+    .useful {
+        display: block;
+    }
+
+    .house2 img {
+        border: 20px solid #86d5f7;
+    }
+
+    #places, #places nav, .room2 {
+        border: none;
+    }
+
+    #tools p, #tools, #tools img, #places p {
+        padding: 0px;
+    }
+
+    #home img {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
