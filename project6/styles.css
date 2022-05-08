@@ -314,6 +314,10 @@ h1 {border: solid black 10px;
     display: none;
 }
 
+.room4 p, .room4 h2 {
+    text-align: right;
+}
+
 @media only screen and (max-width:600px){
     .rosa, .green, .red, .pink, .icon {display: none} 
     .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .container9, .container10 {
@@ -406,6 +410,10 @@ h1 {border: solid black 10px;
 
     #home {
         border:30px solid white;
+    }
+
+    .room4 p, .room4 h2 {
+        text-align: left;
     }
 
 }
