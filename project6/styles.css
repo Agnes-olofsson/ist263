@@ -362,8 +362,16 @@ h1 {border: solid black 10px;
         border: 20px solid #86d5f7;
     }
 
+
+    #places img, #places p {
+        margin: 10px;
+    }
     #places, #places nav, .room2 {
         border: none;
+    }
+
+    p, body {
+        padding: 10px;
     }
 
     #tools p, #tools, #tools img, #places p, .room2 p {
