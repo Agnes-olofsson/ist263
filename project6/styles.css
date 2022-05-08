@@ -309,7 +309,7 @@ h1 {border: solid black 10px;
 }
 
 #mobileFooter {
-    display:none;
+    display: none;
 }
 
 @media only screen and (max-width:600px){
