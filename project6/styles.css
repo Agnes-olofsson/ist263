@@ -2,8 +2,8 @@ body {padding: 20px;
 }
 
 #home{
-    background-image: url("../images/projectimages/blackwhite.jpg");
-    border: 60px solid white;
+    background-image: url("../images/projectimages/bluewhite.jpg");
+    border: 30px solid #86d5f7;
     margin: 0px;
 }
 
@@ -208,6 +208,7 @@ nav {color: white;
 
 .room1 {flex:1;
     margin-top: auto;
+    margin: 30px;
 }
 
 .room2 {flex:2;
@@ -226,9 +227,10 @@ nav {color: white;
 
 .room3 {flex:1;
     margin-top: auto;
+    margin: 15px;
 }
 
-.house img {border: 20px solid #f77cd2;
+.house img {border: 10px solid black;
     border-radius: 2.5em;
 }
 
@@ -366,7 +368,7 @@ h1 {border: solid black 10px;
     #places img, #places p {
         margin: 10px;
     }
-    #places, #places nav, .room2 {
+    #places, #places nav, .room2{
         border: none;
     }
 
@@ -400,6 +402,10 @@ h1 {border: solid black 10px;
         border-radius: 1.5em;
         text-align: center;
         margin: 10px;
+    }
+
+    #home {
+        border:30px solid white;
     }
 
 }
