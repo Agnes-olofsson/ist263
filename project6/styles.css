@@ -207,6 +207,7 @@ nav {color: white;
 }
 
 .room1 {flex:1;
+    margin-top: auto;
 }
 
 .room2 {flex:2;
@@ -215,7 +216,16 @@ nav {color: white;
     border: solid black 10px;
 }
 
+.room2 p {
+    padding: 50px;
+}
+
+.room2 h2 {
+    padding: 10px;
+}
+
 .room3 {flex:1;
+    margin-top: auto;
 }
 
 .house img {border: 20px solid #f77cd2;
@@ -298,6 +308,10 @@ h1 {border: solid black 10px;
     border: solid #85de88 5px;
 }
 
+#mobileFooter {
+    display:none;
+}
+
 @media only screen and (max-width:600px){
     .rosa, .green, .red, .pink, .icon {display: none} 
     .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .container9, .container10 {
@@ -352,7 +366,7 @@ h1 {border: solid black 10px;
         border: none;
     }
 
-    #tools p, #tools, #tools img, #places p {
+    #tools p, #tools, #tools img, #places p, .room2 p {
         padding: 0px;
     }
 
@@ -360,4 +374,24 @@ h1 {border: solid black 10px;
         margin-left: auto;
         margin-right: auto;
     }
+
+    footer  {
+        display: none;
+    }
+
+    #mobileFooter {
+        display:flex;
+    }
+
+    .mobilebox {
+        flex: 1;
+        background: #eb499a;
+        width:20px;
+        justify-content: space-between;
+        padding: 15px;
+        border-radius: 1.5em;
+        text-align: center;
+        margin: 10px;
+    }
+
 }
