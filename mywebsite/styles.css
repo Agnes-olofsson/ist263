@@ -1,0 +1,48 @@
+#container, #container2  {display: flex;
+    border-radius: 1.5em;
+}
+
+img  {border-radius: 2em;
+    border: 15px solid#f77cd2;
+
+}
+
+#container div {flex:1;
+    margin: 20px;
+    padding:50px;
+    border-radius: 1.5em;
+}
+
+#resume {flex:1;
+    background-color: black;
+    color: white;
+    flex: 0 0 350px;
+    padding:10px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid#f77cd2;
+}
+
+#magazine {flex:1;
+    background-color: black;
+    color: white;
+    flex: 0 0 350px;
+    padding:10px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid#f77cd2;
+}
+
+h1 { text-align: center;
+    display: block;
+    margin-top: 70px;
+}
+
+body  { margin: 20px;
+}

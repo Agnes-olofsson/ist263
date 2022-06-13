@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        function changeimage (){
+            document.getElementById("rollover").setAttribute ('src', '../images/head2.jpg')        
+        }
+
+        function changeback (){
+            document.getElementById("rollover").setAttribute ('src', '../images/head1.jpg')        
+        }
+
+        function changeimage2 (){
+            document.getElementById("rollover2").setAttribute ('src', '../images/head4.jpg')        
+        }
+
+        function changeback2 (){
+            document.getElementById("rollover2").setAttribute ('src', '../images/head3.jpg')        
+        }
+    </script>
+    
+</head>
+<body>
+    <h1> Agnes Olofsson</h1>
+
+    <div id="container">
+        <div>    <img src="../images/head1.jpg" id="rollover" onmouseover="changeimage();" onmouseout="changeback();"></div>
+        <div>    <img src="../images/cloudy2.jpg" alt="pink skyes and a big cloud"></div>
+        <div>    <img src="../images/head3.jpg" id="rollover2" onmouseover="changeimage2();" onmouseout="changeback2();" alt="Headshot of Agnes"></div>
+    </div>
+
+<div id="container2">
+    <div id="resume">    <h2> My Resume</h2></div>
+    <div id="magazine">    <h2>Sample Magazine</h2></div>
+</div>
+
+
+</body>
+</html>
