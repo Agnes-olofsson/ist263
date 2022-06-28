@@ -2,8 +2,8 @@ body {padding: 20px;
 }
 
 #home{
-    background-image: url("../images/projectimages/bluewhite.jpg");
-    border: 30px solid #86d5f7;
+    background-image: url("../images/snirkel.jpg");
+    border: 10px solid #86d5f7;
     margin: 0px;
 }
 
@@ -214,7 +214,7 @@ nav {color: white;
 .room2 {flex:2;
     background-color: white;
     border-radius: 2.5em;
-    border: solid black 10px;
+    border: solid black 5px;
 }
 
 .room2 p {
@@ -230,7 +230,7 @@ nav {color: white;
     margin: 15px;
 }
 
-.house img {border: 10px solid black;
+.house img {border: 5px solid black;
     border-radius: 2.5em;
 }
 
@@ -257,7 +257,7 @@ nav {color: white;
     margin: 100px;
 }
 
-h1 {border: solid black 10px;
+h1 {border: solid black 5px;
     border-radius: 1.5em;
     padding: 20px; 
     width: 70%;

@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 
     <script>
@@ -17,6 +21,9 @@
             document.getElementById("rollover").setAttribute ('src', '../images/head1.jpg')        
         }
 
+
+
+
         function changeimage2 (){
             document.getElementById("rollover2").setAttribute ('src', '../images/head4.jpg')        
         }
@@ -24,21 +31,35 @@
         function changeback2 (){
             document.getElementById("rollover2").setAttribute ('src', '../images/head3.jpg')        
         }
+
+
+
+        function changeimage3 (){
+            document.getElementById("rollover3").setAttribute ('src', '../images/flagga2.jpg')        
+        }
+
+        function changeback3 (){
+            document.getElementById("rollover3").setAttribute ('src', '../images/flagga1.jpg')        
+        }
+
     </script>
     
 </head>
-<body>
-    <h1> Agnes Olofsson</h1>
+<body id="pagecolor">
+
+<p> hi :) </p>
+
+    <h1> AGNES OLOFSSON</h1>
 
     <div id="container">
         <div>    <img src="../images/head1.jpg" id="rollover" onmouseover="changeimage();" onmouseout="changeback();"></div>
-        <div>    <img src="../images/cloudy2.jpg" alt="pink skyes and a big cloud"></div>
+        <div>    <img src="../images/flagga1.jpg" id="rollover3" onmouseover="changeimage3();" onmouseout="changeback3();"></div>
         <div>    <img src="../images/head3.jpg" id="rollover2" onmouseover="changeimage2();" onmouseout="changeback2();" alt="Headshot of Agnes"></div>
     </div>
 
 <div id="container2">
-    <div id="resume">    <h2> My Resume</h2></div>
-    <div id="magazine">    <h2>Sample Magazine</h2></div>
+    <div id="resume">    <h2>         <a href="../images/resume2022.jpg"> My Resume</a> </h2></div>
+    <div id="magazine">    <h2> <a href="https://agnes-olofsson.github.io/ist263/project6/home.html"> Sample Website</a></h2></div>
 </div>
 
 

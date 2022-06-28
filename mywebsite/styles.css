@@ -2,8 +2,8 @@
     border-radius: 1.5em;
 }
 
-img  {border-radius: 2em;
-    border: 15px solid#f77cd2;
+img  {border-radius:1.5em;
+    border: 10px solid #49a8f5;
 
 }
 
@@ -14,7 +14,7 @@ img  {border-radius: 2em;
 }
 
 #resume {flex:1;
-    background-color: black;
+    background-color: transparent;
     color: white;
     flex: 0 0 350px;
     padding:10px;
@@ -23,11 +23,11 @@ img  {border-radius: 2em;
     border-radius: 2em;
     margin-left: auto;
     margin-right: auto;
-    border: 10px solid#f77cd2;
+    border: 5px solid #49a8f5;
 }
 
 #magazine {flex:1;
-    background-color: black;
+    background-color: transparent;
     color: white;
     flex: 0 0 350px;
     padding:10px;
@@ -36,13 +36,80 @@ img  {border-radius: 2em;
     border-radius: 2em;
     margin-left: auto;
     margin-right: auto;
-    border: 10px solid#f77cd2;
+    border: 5px solid #49a8f5;
 }
 
 h1 { text-align: center;
     display: block;
     margin-top: 70px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: xx-large;
 }
 
-body  { margin: 20px;
+body  { margin: 0px;
+} 
+
+h2  { 
+    font-family: 'Varela Round', sans-serif;
+    font-size: x-large;
+}
+
+a  {  color: white;
+}
+
+a:visited  {  color: #49a8f5;
+}
+
+p  { 
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 20px;
+}
+
+
+#pagecolor { background-image: url("../images/ja.jpg");
+    border: 10px solid #86d5f7;
+}
+
+@media only screen and (max-width:600px){
+    #container, #container2   { display: block;
+    }
+    #rollover2, #rollover3, p { display: none;
+    }
+
+    #container div {
+        padding:10px;
+        width: 67%;
+        margin: 0 auto;
+    }
+
+    #resume {
+        background-color: transparent;
+        color: white;
+        border: 5px solid #f77cd2;
+        margin: 10px;
+        padding: 0px;
+    }
+
+    #magazine {
+        background-color: transparent;
+        color: white;
+        border: 5px solid yellow;
+        margin: 10px;
+        padding: 0px;
+    }
+
+    img {
+        border: 5px solid #69d17a;
+    }
+    #pagecolor { background-image: url("../images/nej.jpg");
+    }
+
+    a  {  color: #69d17a;
+        
+    }
+
+    #pagecolor { 
+        border: 5px solid #86d5f7;
+    }
+
 }
