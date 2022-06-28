@@ -27,7 +27,7 @@ img  {border-radius:1.5em;
 }
 
 #magazine {flex:1;
-    background-color: transparent;
+    background-color: white;
     color: white;
     flex: 0 0 350px;
     padding:10px;
