@@ -318,6 +318,10 @@ h1 {border: solid black 5px;
     text-align: right;
 }
 
+.maxwidth {
+    max-width: 1500px;
+}
+
 @media only screen and (max-width:600px){
     .rosa, .green, .red, .pink, .icon {display: none} 
     .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .container9, .container10 {
@@ -354,10 +358,11 @@ h1 {border: solid black 5px;
     #jag, #pappa { 
         border: 20px solid #86d5f7;
         border-radius: 2.5em;
+        width: 90%;
     }
 
     .room2 { 
-        margin-left: 40px;
+        margin-left: 30px;
     }
 
     .useful {
@@ -409,11 +414,21 @@ h1 {border: solid black 5px;
     }
 
     #home {
-        border:30px solid white;
+        border:10px solid white;
     }
 
     .room4 p, .room4 h2 {
         text-align: left;
     }
 
+    .room2 p {
+        padding: 10px;
+    }
+
+    #tools {margin: 50px;
+    }
+
+    .room4 img, .room5 img, #places img {
+        max-width: 90%;
+    }
 }

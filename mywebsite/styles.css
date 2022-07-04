@@ -89,13 +89,20 @@ body { background-image: url("../images/ja.jpg");
 @media only screen and (max-width:600px){
     #container, #container2   { display: block;
     }
-    #rollover2, #rollover3, p { display: none;
+    #rollover2, #rollover3, .nomobile { display: none;
     }
 
-    #container div {
+ /*   #container div {
         padding:10px;
         width: 67%;
         margin: 0 auto;
+    }
+*/
+    #rollover {
+        width: 100%;
+        margin: 0px;
+        padding:0px;
+
     }
 
     #resume {
@@ -118,14 +125,11 @@ body { background-image: url("../images/ja.jpg");
         border: 5px solid #69d17a;
     }
     #pagecolor { background-image: url("../images/nej.jpg");
-    }
-
-    a  {  color: #69d17a;
-        
-    }
-
-    #pagecolor { 
+        background-size: auto;
         border: 5px solid #86d5f7;
+    }
+
+    a  {  color: #69d17a;   
     }
 
     #back{ 
@@ -142,6 +146,7 @@ body { background-image: url("../images/ja.jpg");
 
     #mycv {
         background-image: url("../images/swirl.jpg");
+        background-size: auto;
         border: 5px solid #69d17a;
 
     }

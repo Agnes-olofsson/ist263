@@ -18,7 +18,8 @@
 
     <script>
         function changeimage (){
-            document.getElementById("rollover").setAttribute ('src', '../images/head2.jpg')        
+            document.getElementById("rollover").setAttribute ('src', '../images/head2.jpg') 
+            setTimeout(changeback,2000)       
         }
 
         function changeback (){
@@ -55,8 +56,8 @@
 
     <div id="container">
         <div>    <img src="../images/head1.jpg" id="rollover" onmouseover="changeimage();" onmouseout="changeback();"></div>
-        <div>    <img src="../images/flagga1.jpg" id="rollover3" onmouseover="changeimage3();" onmouseout="changeback3();"></div>
-        <div>    <img src="../images/head3.jpg" id="rollover2" onmouseover="changeimage2();" onmouseout="changeback2();" alt="Headshot of Agnes"></div>
+        <div class="nomobile">    <img src="../images/flagga1.jpg" id="rollover3" onmouseover="changeimage3();" onmouseout="changeback3();"></div>
+        <div class="nomobile">    <img src="../images/head3.jpg" id="rollover2" onmouseover="changeimage2();" onmouseout="changeback2();" alt="Headshot of Agnes"></div>
     </div>
 
 <div id="container2">
